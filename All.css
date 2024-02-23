@@ -1,0 +1,125 @@
+body {
+    margin: 0; 
+    padding: 0; 
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.container {
+    width: 980px;
+    margin: 0 auto; /* This centers the container */
+       
+}
+.banner {
+    text-align: center;
+    padding: 5px 0;
+    background-color: white;
+    color: black;
+}
+
+.banner img {
+    max-width: 40%;
+    height: auto;
+}
+.larger-picture-link {
+    display: block; /* Make the link a block-level element */
+    text-align: center; /* Center the link text */
+    margin-top: 20px; /* Add some space between the banner and the link */
+}
+
+/* CSS for making the logo resizable */
+.logo-container {
+    position: absolute;
+    top: 20px; /* Position it 20px from the top */
+    left: 20px; /* Position it 20px from the left */
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    max-width: 100px; /* Adjust the width as needed */
+    max-height: 200px; /* Set a maximum height for the logo */
+    width: auto; /* Allow the logo to resize horizontally */
+    height: auto; /* Allow the logo to resize vertically */
+}
+
+.logo-container h2 {
+    margin-left: 10px; /* Add some space between the logo and the text */
+}
+.product-description {
+    text-align: center;
+    padding: 2px 0;
+}
+
+
+.product-description h2 {
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+
+.product-description p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.hotspot-map {
+    text-align: center;
+    padding: 2px 0;
+}
+    .canada-map   img {
+    max-width: 550px; /* Adjust the width as needed */
+    max-height: 400px; /* Set a maximum height for the logo */
+    width: auto; /* Allow the logo to resize horizontally */
+    height: auto; /* Allow the logo to resize vertically */
+}
+.canada-map {
+    text-align: center;
+    padding: 2px 0;
+}
+.hyper-links {
+    text-align: center;
+    padding: 2px 0;
+}
+ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    li {
+        margin-bottom: 10px; 
+    }
+
+    .home-page {
+     position: absolute;
+    top: 10px; 
+    right: 10px; 
+    z-index: 500;
+    font-size: 30px;
+    display: flex;
+    
+}
+.features {
+    text-align: center;
+    padding: 2px 0;
+}
+.accessories {
+    text-align: center; /* Center the content horizontally */
+    padding: 2px 0;
+}
+
+/* CSS for the table */
+table {
+    margin: 0 auto; /* Center the table horizontally */
+    border-collapse: collapse;
+    width: 80%; /* Adjust width as needed */
+}
+
+/* CSS for table cells and headers */
+td, th {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+/* CSS for alternating row colors */
+tr:nth-of-type(even) {
+    background-color: lightgray /* Light gray background for even rows */
+}
